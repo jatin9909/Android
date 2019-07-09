@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.pwd2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_screen"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".msword_assesment" />
+        <activity android:name=".mspowerpoint_assesment" />
+        <activity android:name=".msexcel_assesment" />
+        <activity android:name=".msaccess_assesment" />
+        <activity android:name=".loginbasic" />
+        <activity android:name=".signup_basic" />
+        <activity android:name=".tailoring_assesment" />
+        <activity android:name=".coursetailoring_basic" />
+        <activity
+            android:name=".video_coursetailoring"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".course_basic_computing_basic" />
+        <activity android:name=".tailoring_assesment1" />
+        <activity android:name=".know_about_pwd" />
+        <activity android:name=".ngo_support_policy" />
+        <activity android:name=".contact_us" />
+        <activity android:name=".faq" />
+        <activity android:name=".help" />
+        <activity android:name=".whatsnew" />
+        <activity android:name=".tailoring_video" />
+        <activity android:name=".tailoring_pdf1" />
+        <activity android:name=".tailoring_pdf2" />
+        <activity android:name=".tailoring_pdf3" />
+        <activity android:name=".tailoring_pdf4" />
+        <activity android:name=".tailoring_pdf5" />
+        <activity android:name=".typesofdisability" />
+        <activity android:name=".login_mental" />
+        <activity android:name=".signup_mental" />
+        <activity android:name=".certificate"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.pwd2.mspowerpoint_assesment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    MS - PowerPoint
+     Assesment One"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/checkBox15" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="1. Which tab is not available on left panel when you open a presentation? :"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="2. Which of the following section does not exist in a slide layout? "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="3. PowerPoint presentations are widely used as"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/checkBox8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Outline "
+            android:layout_above="@+id/textView3"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignTop="@+id/checkBox2" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slides  "
+            android:layout_above="@+id/textView3"
+            android:layout_alignEnd="@+id/checkBox25"
+            android:layout_marginEnd="8dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOtes  "
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/checkBox" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_alignStart="@+id/checkBox2"
+            android:layout_below="@+id/textView2"
+            android:text="  All Of Above" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titles"
+            android:layout_above="@+id/checkBox8"
+            android:layout_alignStart="@+id/textView3" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Lists"
+            android:layout_above="@+id/checkBox9"
+            android:layout_alignStart="@+id/checkBox5" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Charts "
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animations"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/checkBox7" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="53dp"
+            android:text="note outline for teachers " />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_below="@+id/checkBox10"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="15dp"
+            android:text="project presentations by students  " />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" communication of planning"
+            android:layout_below="@+id/checkBox10"
+            android:layout_alignStart="@+id/checkBox10" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox11"
+            android:layout_alignStart="@+id/checkBox11"
+            android:layout_below="@+id/checkBox11"
+            android:text=" All " />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text=" 4. _______ controls all the main slide control tasks for your presentation. "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" task Pane"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView6" />
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView6"
+            android:text="Task Bar"
+            android:layout_marginRight="88dp"
+            android:layout_below="@+id/textView6" />
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control Panel "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox15" />
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox15"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginRight="100dp"
+            android:text=" NONE" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="5. Which of the following cannot be toggled from View >> Toolbars?: "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Control toolboX"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView7" />
+
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView7"
+            android:text="Slides "
+            android:layout_marginRight="100dp"
+            android:layout_below="@+id/textView7" />
+
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revisions "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox18" />
+
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox19"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginRight="68dp"
+            android:text=" Reviewing " />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="6. Which of the following pane is not available in Task Pane? "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox21"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Getting Started  "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView8" />
+
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView8"
+            android:text=" Clip Art "
+            android:layout_marginRight="80dp"
+            android:layout_below="@+id/textView8" />
+
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word Art "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox22" />
+
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox23"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginRight="35dp"
+            android:text="  Search Results " />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="7. A new presentation can be created from "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Blank Presentation  "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView9" />
+
+        <CheckBox
+            android:id="@+id/checkBox27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" From Existing Presentation  "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox28" />
+
+        <CheckBox
+            android:id="@+id/checkBox28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" From Design Template"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox26" />
+
+        <CheckBox
+            android:id="@+id/checkBox29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox27"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="35dp"
+            android:text="  ALL  " />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="8. In slide layout panel how many layouts are available for text layout by default? "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox29"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 4 "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView10" />
+
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView6"
+            android:text=" 7"
+            android:layout_marginRight="55dp"
+            android:layout_below="@+id/textView10" />
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox30" />
+
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox31"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginRight="35dp"
+            android:text=" None" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="9. What lets you to create new presentation by selecting ready-made font color and graphics effects?  "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox33"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Presentation Template"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView11" />
+
+        <CheckBox
+            android:id="@+id/checkBox35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView6"
+            android:text="  Master Slide "
+            android:layout_marginRight="28dp"
+            android:layout_below="@+id/textView11" />
+
+        <CheckBox
+            android:id="@+id/checkBox36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Design Template"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox34" />
+
+        <CheckBox
+            android:id="@+id/checkBox37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox35"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginRight="35dp"
+            android:text="Animation Scheme" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="10. Which command will you use in PowerPoint if you need to change the color of different objects without changing content?"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox37"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Design Template"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView12" />
+
+        <CheckBox
+            android:id="@+id/checkBox39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView6"
+            android:text=" Color Scheme  "
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textView12" />
+
+        <CheckBox
+            android:id="@+id/checkBox40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Font Color "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox38" />
+
+        <CheckBox
+            android:id="@+id/checkBox41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox39"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginRight="35dp"
+            android:text=" Object Color " />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox41"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Answers - 1.(c),2.(d),3.(d),4.(a),5.(b),6.(c),7.(d),8.(a),
+            9.(c),10.(b)" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text= "Submit"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/button"
+            android:layout_below="@+id/checkBox41"
+            android:layout_marginTop="50dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text= "Reset"
+            android:id="@+id/button1"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/textView6" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

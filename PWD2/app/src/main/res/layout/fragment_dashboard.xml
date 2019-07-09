@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcd94"
+    android:id="@+id/dashboard"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.hp.pwd2.Dashboard">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab"
+        app:tabSelectedTextColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize">
+
+
+
+
+    </android.support.design.widget.TabLayout>
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/pager" />
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.hp.pwd2.know_about_pwd">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+         android:textSize="25dp"
+        android:text="Know About Pwd's"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textView16"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/text"
+            android:src="@drawable/arunima"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:id="@+id/text2"
+            android:textSize="20dp"
+            android:text="  Arunima Sinha is the world’s first female and India’s first amputee to climb the Mount Everest. She is
+also a national level volleyball player.
+"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image2"
+            android:src="@drawable/franklin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text3"
+            android:layout_below="@id/image2"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:text=" Franklin D Roosevelt was a American lawyer and politician . While vacationing in Canada in 1921 he was diagnosed with polio and was paralyzed from waist down.He then became 32nd President of THE UNITED STATES in 1933.
+
+"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:id="@+id/image3"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/text3"
+            android:src="@drawable/nichols"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text4"
+            android:layout_below="@+id/image3"
+            android:textSize="20dp"
+            android:text="Nicholas James is an Australian motivational speaker born with a rare condition called the Phocomelia which is the absence of limbs; both hands and legs since birth., he graduated in Commerce with specialization in financial planning. Today he is a world renowned motivational speaker who aims at instilling hope in people helping them to fight their oddities."
+            android:layout_marginLeft="15dp"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

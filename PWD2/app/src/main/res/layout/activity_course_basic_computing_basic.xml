@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.pwd2.course_basic_computing_basic">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/images" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_marginTop="14dp"
+            android:text="OverView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignStart="@+id/tailor" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:text="Sullybus"
+            android:layout_marginLeft="90dp"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignEnd="@+id/over1"
+            android:layout_marginEnd="9dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:text="FAQ's"
+            android:layout_marginLeft="90dp"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tailor"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginTop="80dp"
+            android:text="Basic Computing Course"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tailor"
+            android:id="@+id/over"
+            android:textColor="#000000"
+            android:text="OverView"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/over"
+            android:id="@+id/over1"
+            android:text="The Course is Designed to aim at imparting a basic level appreciation programme for the common man. After completing the course the incubent will be able to use the computer for basic purposes of preparing his personal/business letters, viewing information on the internet(The web), sending mails etc. The course provides a good working environment with a friendly interface. The course is scheduled on weekly basis with 28 video lectures and one final assesment per week"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/over1"
+            android:id="@+id/table"
+            android:background="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Course Language"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :  English/Hindi"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Course Type"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :  Scheduled"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Video Transcripts"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :  English/Hindi"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Course Category"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :  Technical"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Learning Path"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :  Certification"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Weekly Commitment"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :  15hours"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Course Length"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :  60hours"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Course Completion"
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text=" :View Certificate"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/table1"
+            android:background="#000000"
+            android:layout_below="@+id/table"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="    Tutorials  "
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text="  :28"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+
+                <TextView
+                    android:text="        Assesment : 4 "
+                    android:textSize="20dp"
+                    android:layout_column="3">
+                </TextView>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="    Article  "
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+                <TextView
+                    android:text="  :6"
+                    android:textSize="20dp"
+                    android:layout_column="2">
+
+                </TextView>
+
+                <TextView
+                    android:text="     Weekly Read List:2  "
+                    android:textSize="20dp"
+                    android:layout_column="3">
+                </TextView>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/table2"
+            android:layout_below="@+id/table1"
+            android:background="#000000"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="    Start Date : "
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+
+
+                <TextView
+                    android:text="       20/03/2018  "
+                    android:textSize="20dp"
+                    android:layout_column="3">
+                </TextView>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="    End Date   :  "
+                    android:textSize="20dp"
+                    android:layout_column="1">
+                </TextView>
+
+
+                <TextView
+                    android:text="       30/05/2018 "
+                    android:textSize="20dp"
+                    android:layout_column="3">
+                </TextView>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/table2"
+            android:id="@+id/course"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Course Sullybus and Schedule"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin"
+            android:layout_below="@+id/course"
+            android:layout_marginTop="10dp"
+            android:prompt="@string/spinner_title">
+
+        </Spinner>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin1"
+            android:layout_below="@+id/spin"
+            android:layout_marginTop="5dp"
+            android:prompt="@string/spinner_title">
+
+        </Spinner>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin2"
+            android:layout_below="@+id/spin1"
+            android:layout_marginTop="5dp"
+            android:prompt="@string/spinner_title">
+
+        </Spinner>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin3"
+            android:layout_below="@+id/spin2"
+            android:layout_marginTop="5dp"
+            android:prompt="@string/spinner_title">
+
+        </Spinner>
+
+
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/spin3"
+            android:id="@+id/enroll"
+            android:layout_centerHorizontal="true"
+            android:text="Enroll"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

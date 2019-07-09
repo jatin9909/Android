@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/idpic"
+        android:src="@drawable/teacher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idtitle"
+        android:text="Title"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/idpic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:text="description"
+        android:textColor="#000000"
+        android:layout_below="@+id/idtitle"
+        android:layout_toRightOf="@+id/idpic"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/salary"
+        android:text="salary"
+        android:textColor="#000000"
+        android:layout_below="@+id/idtitle"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

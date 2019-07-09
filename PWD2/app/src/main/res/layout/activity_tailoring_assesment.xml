@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.pwd2.tailoring_assesment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    TAILORING
+Assesment One"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/checkBox12" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="1. What is the average width of the facing around the armhole ?:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="2. By which number are the round measurements divided while making a drafting?:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="3. The word which means suitcase is:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/checkBox8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  2 Inches"
+            android:layout_above="@+id/textView3"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignTop="@+id/checkBox2" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3 Inches"
+            android:layout_above="@+id/textView3"
+            android:layout_alignEnd="@+id/checkBox19" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  5 Inches"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/checkBox" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_alignStart="@+id/checkBox2"
+            android:layout_below="@+id/textView2"
+            android:text="  7 Inches" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_above="@+id/checkBox8"
+            android:layout_alignStart="@+id/textView3" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 4"
+            android:layout_above="@+id/checkBox9"
+            android:layout_alignEnd="@+id/checkBox9" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 7"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/checkBox5" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="53dp"
+            android:text=" Weft" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox10"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="15dp"
+            android:text=" Bias" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Selvedge"
+            android:layout_below="@+id/checkBox10"
+            android:layout_alignStart="@+id/checkBox10" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox11"
+            android:layout_alignStart="@+id/checkBox11"
+            android:layout_below="@+id/checkBox11"
+            android:text="Warp" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="4. What is the depth of the neck known as ?: "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Quaters"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView6" />
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView6"
+            android:text="Lapels"
+            android:layout_marginRight="100dp"
+            android:layout_below="@+id/textView6" />
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Arm Scye"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox15" />
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox15"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginRight="100dp"
+            android:text="Gorge" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="5. Size of needle you should use while stiching Canvas ?: "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 9-11"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView7" />
+
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView7"
+            android:text="  12-14"
+            android:layout_marginRight="80dp"
+            android:layout_below="@+id/textView7" />
+
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 14-16"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox18" />
+
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="68dp"
+            android:text="  16-18"
+            android:layout_below="@+id/checkBox19"
+            android:layout_alignStart="@+id/button10" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="6. Type of needle you should use while stiching Knit Fabric ?:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox21"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Wedge Point Needles"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView8" />
+
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Top Stitching Needles"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="80dp"
+            android:layout_below="@+id/checkBox24" />
+
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Jersey Needles"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox22" />
+
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox23"
+           android:layout_marginLeft="15dp"
+            android:layout_marginRight="70dp"
+            android:text="  Regular Point Needles " />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="7. Stitch you will use to finish Raw edges ?:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/checkBox25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Zig-Zag"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView9" />
+
+        <CheckBox
+            android:id="@+id/checkBox27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Pinked Seam "
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox28" />
+
+        <CheckBox
+            android:id="@+id/checkBox28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Bias Seam"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox26" />
+
+        <CheckBox
+            android:id="@+id/checkBox29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox27"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="35dp"
+            android:text=" Top Stitch" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="8. Stich used to completely cover the background of the fabric ?:from"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/checkBox29"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chain Stich"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/textView10" />
+
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView6"
+            android:text="Satin Stich"
+            android:layout_marginRight="55dp"
+            android:layout_below="@+id/textView10" />
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Back Stich"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/checkBox30" />
+
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox32"
+            android:layout_marginLeft="15dp"
+            android:text=" Running Stich" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox32"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:text="Answers - 1.(b),2.(b),3.(b),4.(c),5.(d),6.(b),7.(a),8.(b),
+            " />
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text= "Submit"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/button"
+            android:layout_below="@+id/checkBox33"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text= "Reset"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/textView6"
+            android:id="@+id/button10" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

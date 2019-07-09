@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/event" android:title="PWD" android:icon="@drawable/dash"/>  /*dashboard.class*/
+    <item android:id="@+id/search" android:title="Search" android:icon="@drawable/search"/>
+    <item android:id="@+id/settings" android:title="Forum" android:icon="@drawable/setting"/>
+</menu>
